@@ -1,223 +1,278 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-body{
-    background-color: #f5f5f5;
-    font-family: sans-serif;
+body {
+  background-color: #f5f5f5;
+  font-family: sans-serif;
 }
-header,section{
-    max-width: 992px;
-    margin: auto;
-    padding: 20px;
+header,
+section {
+  max-width: 992px;
+  margin: auto;
+  padding: 20px;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-header div{
-    box-shadow: 0 12px 12px gold;
-    cursor: pointer;
+header div {
+  box-shadow: 0 12px 12px gold;
+  cursor: pointer;
 }
-nav ul a{
-text-decoration: none;
-margin-right: 20px;
-color: black;
-text-shadow: 0 12px 12px blueviolet;
+nav ul a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: black;
+  text-shadow: 0 12px 12px blueviolet;
 }
-nav ul a:hover{
-    background-color: grey;
+nav ul a:hover {
+  background-color: grey;
 }
-.hero{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 3rem;
-    overflow: hidden;
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
 }
-.port h1{
-    font-size: 40px;
-    text-shadow: 0 12px 12px rgb(218, 202, 202);
-    cursor: pointer;
+.port h1 {
+  font-size: 40px;
+  text-shadow: 0 12px 12px rgb(218, 202, 202);
+  cursor: pointer;
 }
-.port button{
-    padding: 10px 20px;
-    background-color: black;
-    color: white;
-    border-radius: 8px;
-    border: none;
-    box-shadow: 0 12px 12px goldenrod;
-    cursor: pointer;
+.port button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 12px 12px goldenrod;
+  cursor: pointer;
 }
-.port button:hover
-{
-    background-color: burlywood;
+.port button:hover {
+  background-color: burlywood;
 }
-.hero div img{
-    cursor: pointer;
-    width: 500px;
-    margin-right: 50%;
-    filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.5));
+.hero div img {
+  cursor: pointer;
+  width: 500px;
+  margin-right: 50%;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }
-.hero div img:hover{
-    filter: brightness(80%);
+.hero div img:hover {
+  filter: brightness(80%);
 }
-.hero-1{
-    padding: 30px;
+.hero-1 {
+  padding: 30px;
 }
-.hero-1 h1{
-    margin-bottom: 1.5rem;
-    text-shadow: 0 12px 12px rgb(151, 136, 185);
-    cursor: pointer;
+.hero-1 h1 {
+  margin-bottom: 1.5rem;
+  text-shadow: 0 12px 12px rgb(151, 136, 185);
+  cursor: pointer;
 }
-.port-1 img{
-    width: 265px ;
-    margin-right: 10px;
-    box-shadow: 0 12px 12px green;
-    border-radius: 15px;
-    cursor: pointer;
+.port-1 img {
+  width: 265px;
+  margin-right: 10px;
+  box-shadow: 0 12px 12px green;
+  border-radius: 15px;
+  cursor: pointer;
 }
-.port-1 img:hover{
-    filter: contrast(80%);
+.port-1 img:hover {
+  filter: contrast(80%);
 }
-.hero-2{
-    padding: 30px;
+.hero-2 {
+  padding: 30px;
 }
-.hero-2 h1{
-    margin-bottom: 10px;
-    cursor: pointer;
-    text-shadow: 0 12px 12px #666;
+.hero-2 h1 {
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-shadow: 0 12px 12px #666;
 }
-.hero-2 h5{
-    color: #666;
-    margin-bottom: 2rem;
-    cursor: pointer;
+.hero-2 h5 {
+  color: #666;
+  margin-bottom: 2rem;
+  cursor: pointer;
 }
-.form-box{
-    border: 2px solid #ccc;
-    padding: 30px;
-    width: 765px;
-    border-radius: 10px;
+.form-box {
+  border: 2px solid #ccc;
+  padding: 30px;
+  width: 765px;
+  border-radius: 10px;
 }
-input{
-    margin-top: 2rem;
-    padding: 5px;
-    border-radius: 8px;
-    cursor: pointer;
-    margin: 2px;
+input {
+  margin-top: 2rem;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 2px;
+}
+button {
+  margin-top: 15px;
+  padding: 5px 68px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-left: 3px;
+}
+.checkbox {
+  color: #666;
+  margin-top: 15px;
+  margin-left: 3px;
+}
+.hero-3 {
+  padding: 30px;
+}
+.hero-3 h1 {
+  margin-bottom: 2rem;
+  text-shadow: 0 12px 12px rosybrown;
+  cursor: pointer;
+}
+.port-2 img {
+  width: 500px;
+  height: 300px;
+  cursor: pointer;
+  box-shadow: 0 12px 12px blue;
+  border-radius: 15px;
+}
+.port-3 img {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 12px 12px turquoise;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.hero-4 {
+  display: flex;
+  gap: 20px;
+}
+.hero-5 {
+  padding: 30px;
+}
+.hero-5 h1 {
+  margin-bottom: 2.5rem;
+  text-shadow: 0 12px 12px #2172d4;
+  cursor: pointer;
+}
+.motu img {
+  width: 265px;
+  margin-right: 10px;
+  padding: 0;
+  cursor: pointer;
+  box-shadow: 0 12px 12px rgb(71, 255, 246);
+  border-radius: 15px;
+  margin-bottom: 2.5rem;
+}
+.hero-6 {
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  margin-right: 18%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.patlu-1 img {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.patlu-1 p {
+  margin-bottom: 10px;
+  text-shadow: 0 12px 12px rgb(207, 170, 114);
+}
+.patlu-2 a {
+  margin-right: 10px;
+  color: #333;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.patlu {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: auto;
+  max-width: 1200px;
+}
+.patlu-3 h3 {
+  margin-top: 15px;
+  text-shadow: 0 12px 12px rgb(191, 156, 223);
+}
+.patlu-3 p {
+  margin-top: 10px;
+  text-shadow: 0 12px 12px goldenrod;
+}
+.patlu-4 h3 {
+  margin-top: 15px;
+  text-shadow: 0 12px 12px rgb(140, 140, 230);
+}
+.patlu-4 p {
+  margin-top: 10px;
+  text-shadow: 0 12px 12px burlywood;
+}
+.patlu-4 form {
+  width: 10%;
+  margin-top: 10px;
+}
+.patlu-5 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
 }
 button{
-    margin-top: 15px;
-    padding: 5px 68px;
-    border-radius: 8px;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    margin-left: 3px;
+    display: block;
+    font-size: 16px;
+    padding: 10px 20px;
 }
-.checkbox{
-    color: #666;
-    margin-top: 15px;
-    margin-left: 3px;
-}
-.hero-3{
-    padding: 30px;
-}
-.hero-3 h1{
-    margin-bottom: 2rem;
-    text-shadow: 0 12px 12px rosybrown;
-    cursor: pointer;
-}
-.port-2 img{
-    width: 500px;
-    height: 300px;
-    cursor: pointer;
-    box-shadow: 0 12px 12px blue;
-    border-radius: 15px;
-}
-.port-3 img{
-    width: 300px;
-    height: 300px;
-    box-shadow: 0 12px 12px turquoise;
-    border-radius: 15px;
-    cursor: pointer;
-}
-.hero-4{
-display: flex;
-gap: 20px;
-}
-.hero-5{
-    padding: 30px;
-}
-.hero-5 h1{
-    margin-bottom: 2.5rem;
-    text-shadow: 0 12px 12px #2172d4;
-    cursor: pointer;
-}
-.motu img{
-    width: 265px;
-    margin-right: 10px;
-    padding: 0;
-    cursor: pointer;
-    box-shadow: 0 12px 12px rgb(71, 255, 246);
-    border-radius: 15px;
-    margin-bottom: 2.5rem;
-}
-.hero-6{
-    border-top: 1px solid #ccc;
-    margin-top: 40px;
-    margin-right: 18%;
-    max-width: 1200px;
+@media only screen and (max-width: 800px) {
+  body {
+    width: 100%;
+    max-width: 600px;
     margin: 0 auto;
-    padding: 40px 20px;
-}
-.patlu-1 img{
-    font-size: 24px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-.patlu-1 p{
-    margin-bottom: 10px;
-    text-shadow: 0 12px 12px rgb(207, 170, 114);
-}
-.patlu-2 a{
-    margin-right: 10px;
-    color: #333;
-    font-size: 18px;
-    margin-top: 10px;
-}
-.patlu{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    margin: auto;
-    max-width: 1200px;
-}
-.patlu-3 h3{
-    margin-top: 15px;
-    text-shadow: 0 12px 12px rgb(191, 156, 223);
-}
-.patlu-3 p{
-    margin-top: 10px;
-    text-shadow: 0 12px 12px goldenrod;
-}
-.patlu-4 h3{
-    margin-top: 15px;
-    text-shadow: 0 12px 12px rgb(140, 140, 230);
-}
-.patlu-4 p{
-    margin-top: 10px;
-    text-shadow: 0 12px 12px burlywood;
-}
-.patlu-4 form{
-    width: 10%;
-    margin-top: 10px;
-}
-.patlu-5{
-    margin-top: 30px;
     text-align: center;
-    font-size: 14px;
-    color: #666;
+    touch-action: none;
+    background: lightgray;
+    display: block;
+    header {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+    .hero {
+      flex-direction: column;
+    }
+    .hero-1 {
+      flex-direction: column;
+    }
+    .hero-2 {
+      flex-direction: column;
+    }
+    form {
+     width: 50%;
+    }
+    .form-box input {
+      flex-direction: column;
+      width: 50%;
+      margin-right: 50%;
+    }
+    .checkbox{
+     width: 60%;
+     padding: 20px;
+    }
+    .hero-4 {
+      flex-direction: column;
+      margin-right: 50%;
+    }
+      .hero-4 img{
+        width: 200%;
+      }
+      .patlu{
+        flex-direction: column;
+      }
+      .motu-1{
+        padding: 30px;
+        margin: 20px;
+      }
+}
 }
